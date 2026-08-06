@@ -12,6 +12,8 @@ one; a built-in lab notebook records what you found and exports it as a formatte
 ![dependencies](https://img.shields.io/badge/runtime%20dependencies-1-lightgrey)
 ![build](https://img.shields.io/badge/build-no%20bundler-lightgrey)
 
+[![GeneCharacterize analyzer](docs/screenshot.png)](https://aryaadeshmukh-27.github.io/DNAcodes/)
+
 ---
 
 ## Why this exists

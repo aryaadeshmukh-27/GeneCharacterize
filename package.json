@@ -1,0 +1,14 @@
+{
+  "name": "genecharacterize",
+  "version": "1.0.0",
+  "description": "Browser-based gene characterization workbench: local sequence analysis plus a 19-step protocol linking 87 bioinformatics resources.",
+  "main": "js/seqlib.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node --test",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": ["bioinformatics", "sequence-analysis", "gene-family", "fasta", "orf", "phylogenetics"],
+  "license": "MIT",
+  "private": true
+}

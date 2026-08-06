@@ -4,7 +4,7 @@ A browser-based gene characterization workbench. Sequence analysis runs locally 
 a 19-step protocol organizes 87 external tools and 44 databases and hands your sequence to each
 one; a built-in lab notebook records what you found and exports it as a formatted report.
 
-**[Live demo](https://aryaadeshmukh-27.github.io/DNAcodes/)** ·
+**[Live demo](https://aryaadeshmukh-27.github.io/GeneCharacterize/)** ·
 [Analysis engine](js/seqlib.js) · [Advanced tools](js/seqtools.js) · [Tests](tests/)
 
 ![tests](https://img.shields.io/badge/tests-197%20passing-brightgreen)
@@ -12,7 +12,7 @@ one; a built-in lab notebook records what you found and exports it as a formatte
 ![dependencies](https://img.shields.io/badge/runtime%20dependencies-1-lightgrey)
 ![build](https://img.shields.io/badge/build-no%20bundler-lightgrey)
 
-[![GeneCharacterize analyzer](docs/screenshot.png)](https://aryaadeshmukh-27.github.io/DNAcodes/)
+[![GeneCharacterize analyzer](docs/screenshot.png)](https://aryaadeshmukh-27.github.io/GeneCharacterize/)
 
 ---
 
@@ -78,8 +78,8 @@ thing as a printable HTML report, Markdown, or a JSON backup you can restore lat
 The multi-file version is a static site with no build step:
 
 ```bash
-git clone https://github.com/aryaadeshmukh-27/DNAcodes.git
-cd DNAcodes
+git clone https://github.com/aryaadeshmukh-27/GeneCharacterize.git
+cd GeneCharacterize
 python3 -m http.server 8000     # or: npx serve
 ```
 
@@ -116,7 +116,7 @@ Many tests check invariants rather than fixed values, which catches a broader cl
 ## Project structure
 
 ```
-DNAcodes/
+GeneCharacterize/
 ├── index.html              # markup and page shell
 ├── build.js                # bundles everything into one file
 ├── css/styles.css          # design tokens, layout, components, dark theme
